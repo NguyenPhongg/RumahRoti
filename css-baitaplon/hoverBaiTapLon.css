@@ -1,0 +1,100 @@
+
+/* Bannner trai */
+.banner-trai {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.banner-trai:hover img {
+  transform: scale(1.1);
+
+}
+.banner-trai img {
+  transition: all ease-in-out 500ms;
+  transform: scale(1);
+}
+#overlow-trai {
+  width:0px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transition: all ease-in-out 300ms;
+}
+.banner-trai:hover #overlow-trai {
+  transition: all ease-in-out 300ms;
+  left: 0;
+  width: 100%;
+}
+ /* Banner phai */
+ 
+.banner-phai {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.banner-phai:hover img {
+  transform: scale(1.1);
+
+}
+.banner-phai img {
+  transition: all ease-in-out 500ms;
+  transform: scale(1);
+}
+#overlow-phai {
+  width: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transition: all ease-in-out 300ms;
+}
+.banner-phai:hover #overlow-phai {
+  transition: all ease-in-out 300ms;
+  left: 0;
+  width: 100%;
+}
+
+/* SAN PHAM MOI */
+.List-NewProducts p {
+  font-weight: 450;
+}
+.List-NewProducts:hover {
+  cursor: pointer;
+} 
+/* close SAN PHAM MOI */
+img a p {
+  transform: scale(1);  
+  transition: all ease-in-out 500ms;
+}
+.Famous-box {
+  transition: all ease-in-out 500ms;
+}
+
+.Famous-box:hover {
+  transition: all ease-in-out 500ms;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.selling-box {
+  transition: all ease-in-out 500ms;
+}
+.selling-box:hover {
+  transition: all ease-in-out 500ms;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.work {
+  transition: all ease-in-out 500ms;
+}
+.work:hover {
+  transition: all ease-in-out 500ms;
+  transform: scale(1.05);
+  cursor: pointer;
+}

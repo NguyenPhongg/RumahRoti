@@ -1,0 +1,152 @@
+
+/* Mobile */
+@media screen and  (max-width:739px) {
+    .navbar {
+        width: 100%;
+    }
+    .img-branch {
+        border-radius: 10px;
+        height: 50px;
+        margin-left: 5px;
+}  
+    #home{
+        padding-top:80px;
+        /* background-color:rgb(231, 247, 187); */
+        background:url(../image/slider-4.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 700px;
+    }
+    .home-content{
+        display:flex;
+        flex-direction: column;
+        padding-top: 1px;  
+    }
+    .home-title {
+        font-size: 2rem;
+    }
+    .home-desc {
+        font-size: 1rem;
+    }
+    .home-img-item{
+        margin-top: 1px;
+        width: 100%;
+        animation: up linear 3s infinite;
+    }
+    .banner-phai img {
+        margin-top: 20px;
+    }
+    .danh-muc p {
+    text-align: center;
+}
+.work {
+    text-align: center;
+}
+.order-img {
+    height: 300px;
+}
+.form-order {
+    border: 3px solid rgba(153, 38, 38, 0.3);
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem;
+    width: 90%;
+}
+.address-order {
+	border: 3px solid rgba(153, 38, 38, 0.3);
+    font-size: 1.5rem;
+    width: 90%;
+	height: 200px;
+    margin: 1rem;
+}
+.tiltleFooter {
+    text-align: center;
+    margin: 20px 0px;
+}
+.icon-footer a {
+    margin-left: 85px;
+}
+.footer {
+    margin-top: 10px;
+}
+.maunen {
+    height: auto;
+ }
+}
+/* Ipad */
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .navbar {
+        height: 100px;
+    }
+    .img-branch {
+        border-radius: 10px;
+        height: 80px;
+        margin-left: 10px;
+}
+    .navbar li a {
+        margin: 0px 1px;
+        font-size: 18px;
+}
+    .nav-link {
+        padding: 0px 5px;
+    }
+    #home{
+        padding-top:80px;
+        /* background-color:rgb(231, 247, 187); */
+        background:url(../image/slider-4.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 1100px;
+    }
+    .home-content{
+        display:flex;
+        flex-direction: column;
+        padding-top: 1px;  
+    }
+    .home-img-item {
+        margin-top: 4rem;
+        width: 100%;
+    }
+.home-title {
+    font-size: 2.7rem;
+    text-align: center;
+}
+.home-desc {
+    font-size: 1.3rem;
+}
+.btnView {
+    margin-left: 35%
+}
+.home-img-item{
+    width: 100%;
+    animation: up linear 3s infinite;
+}
+.banner1 img{
+  width: 100%;
+  height: 240px;
+}
+.danh-muc p {
+    text-align: center;
+}
+.spm {
+    margin-top: 30px;
+}
+.work {
+    text-align: center;
+}
+.tiltleFooter {
+    text-align: center;
+}
+.form-control {
+    margin-left: 60px;
+}
+.btnFooterSearch {
+    margin-left: 95px;
+}
+.icon-footer a {
+    margin-left: 65px;
+}
+.maunen {
+    height: auto;
+ }
+}
